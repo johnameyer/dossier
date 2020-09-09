@@ -1,0 +1,13 @@
+<form (submit)="create($event)">
+    <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput #firstName placeholder="John">
+    </mat-form-field>
+    
+    <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput #lastName placeholder="Doe">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary">Create</button>
+</form>

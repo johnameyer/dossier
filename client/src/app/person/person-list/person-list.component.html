@@ -1,0 +1,7 @@
+<mat-nav-list>
+    <mat-list-item *ngFor="let person of people">
+       <a matLine [routerLink]="person.id">{{ person.firstName }} {{ person.lastName }}</a>
+    </mat-list-item>
+</mat-nav-list>
+
+<a mat-fab color="accent" routerLink="create">+</a>
